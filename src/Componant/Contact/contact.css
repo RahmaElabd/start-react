@@ -1,0 +1,61 @@
+.contact .content{
+    width: 350px;
+    margin: auto;
+}
+
+.contact .content h2{
+    color:#2C3E50 ;
+    font-size: 3rem
+}
+.contact svg{
+    color: #2C3E50;
+    z-index: 3;
+}
+.contact .line1{
+    background-color: #2C3E50;
+}
+.contact .line2{
+    background-color: #fff;
+}
+@media(max-width:767px){
+    .frm{
+        width: 100%!important;
+    }
+}
+.frm .form-group{
+    border-bottom:  2px solid #e9ecef;
+}
+.frm label{
+    color: #1ABC9C;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    transition: .4s!important;
+}
+.target{
+    top: 0!important;
+}
+.frm input , 
+.frm textarea{
+    position: relative;
+    border: none;
+    z-index:2;
+}
+.frm textarea{
+    resize: none;
+}
+
+.frm input:focus , 
+.frm textarea:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.frm .btns button{
+    transition: .4s;
+    background-color: #1ABC9C;
+}
+.frm .btns button:hover{
+    background-color:  #159A80;
+}

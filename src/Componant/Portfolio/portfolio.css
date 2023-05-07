@@ -1,0 +1,64 @@
+.portfolio{
+    /* height: calc(100% - 100px); */
+}
+.portfolio h2{
+    font-size: 3.5rem;
+    color: #2C3E50;
+}
+.portfolio .content{
+    width: 350px;
+    margin: auto;
+}
+.portfolio .content svg{
+    color:#2C3E50!important ;
+    z-index: 3;
+}
+.portfolio .line1{
+    background-color:#2C3E50!important ;
+}
+.portfolio .line2{
+    background-color:#fff!important ;
+}
+
+.portfolio .overLay{
+    background-color: #1ABC9C;
+    opacity: 0!important;
+    transition: .4s;
+    cursor: pointer;
+}
+.portfolio .col-md-4:hover .overLay{
+    opacity: 1!important;
+}
+
+.portfolio .modal{
+    z-index: 9999999999999;
+}
+@media(max-width:767px){
+    .portfolio .modal .modal-dialog{
+        width: 100%!important;
+    }
+}
+.portfolio .modal .modal-header{
+    border-bottom: none!important;
+}
+.portfolio .modal .close{
+    right: 15px;
+    top: 15px;
+    color: #1ABC9C!important;
+    border: none;
+}
+
+.portfolio .modal .modal-body .img-body img{
+    width: 70%;
+}
+
+
+
+
+.portfolio .modal .modal-footer{
+    border: none;
+}
+.portfolio .modal .modal-footer button{
+    background-color: #1ABC9C;
+    color: #fff;
+}

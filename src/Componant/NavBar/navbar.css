@@ -1,0 +1,22 @@
+nav{
+    background-color: #2C3E50;
+    z-index: 99999;
+}
+
+
+.container{
+    width: 75%!important;
+}
+nav ul li a{
+    transition: .4s;
+}
+nav ul li a:hover{
+    color: #1ABC9C!important;
+}
+
+nav ul li a.active{
+
+background-color: #1ABC9C;
+color: #fff!important;
+
+}

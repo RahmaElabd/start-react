@@ -1,0 +1,15 @@
+
+footer{
+    background-color: #2C3E50;
+}
+footer .icons svg{
+    border: 2px solid #fff;
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    transition: .4s;
+}
+
+footer .icons svg:hover{
+    color: #000!important;
+}

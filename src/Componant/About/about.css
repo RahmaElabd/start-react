@@ -1,0 +1,19 @@
+.about{
+    background-color: #1ABC9C;
+}
+@media(max-width:767px){
+    .about .about-content{
+        width: 100%!important;
+    }
+}
+.about .content{
+    width: 350px;
+    margin: auto;
+}
+
+.about .content svg{
+    z-index: 3;
+}
+.about h2{
+    font-size: 3rem;
+}
